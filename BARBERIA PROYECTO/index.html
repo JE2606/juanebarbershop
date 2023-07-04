@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/grooming.png" type="image/x-icon">
+    <title>JUANE BARBER SHOP</title>
+</head>
+<body>
+
+    <!-- NAV -->
+    <header id="Header">
+        <!-- LOGO EN NAV --> 
+        <a href="#footer"  class="logo-footer-link">
+            <img loading="lazy" src="img/barberia.png" alt="ICONO" class="logo">
+        </a>
+        <!-- BTN PARA EL MENU RESPONSIVE -->
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <!-- IMAGEN QUE REPRESENTA EL MENU RESPONSIVE  -->
+        <img loading="lazy" src="img/menu.png" alt="MENU" class="menu-icono">
+        </label>
+        <!-- OPCIONES -->
+        <ul class="menu">
+            <li ><a href="#titulo" class="item">Inicio</a></li>
+            <li ><a href="#servicio" class="item">Servicios</a></li>
+            <li ><a href="#contacto" class="item">Contacto</a></li>
+            <li ><a href="#ubicacion" class="item">Ubicación</a></li>
+            <li ><a href="#nosotros" class="item">Nosotros</a></li>
+        </ul>
+    </header>
+    <!-- TEXTO EN PANTALLA AL INICIO -->
+    <div class="titulo" id="titulo">
+        <span class="titulo-menu">JUANE BARBER SHOP</span>
+    </div>
+
+    <!-- SERVICIO -->
+    <div class="titulo-servicio titulo" id="servicio">
+        <!-- TITULO EN SERVICIO -->
+        <h2 class="h2-servicio ">SERVICIOS</h2>
+    </div>
+    <!-- CARTAS DE LOS SERVICIOS -->
+    <div class="div-servicio">
+        <div class="carta">
+            <a href="#formulario" class="carta-link">
+                <img loading="lazy" src="img/pelo.jpg" alt="CORTE DE PELO" >
+                <div>
+                    <h4>CORTE DE PELO</h4>
+                    <p>PRECIO: 300$ PESOS</p>
+                    <p>Corte profesional a preferencia y con el diseño que usted desee.</p>
+                </div>
+            </a>
+            
+        </div>
+        <div class="carta">
+            <a href="#formulario" class="carta-link">
+                <img loading="lazy" src="img/barba.jpg" alt="CORTE DE BARBA" >
+                <div>
+                    <h4>CORTE DE BARBA</h4>
+                    <p>PRECIO: 200$ PESOS</p>
+                    <p>Corte profesional a preferencia y con el diseño que usted desee.</p>
+                </div> 
+            </a>
+        </div>
+        <div class="carta">
+            <a href="#formulario" class="carta-link">
+                <img loading="lazy" src="img/ceja.jpg" alt="ARREGLO DE CEJAS" >
+                <div>
+                    <h4>ARREGLO DE CEJAS</h4>
+                    <p>PRECIO: 100$ PESOS</p>
+                    <p>Corte profesional a preferencia y con el diseño que usted desee.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="contacto" id="contacto">
+        <div class="div-titulo-contacto">
+            <h2 class="titulo-contacto">CONTACTO</h2>
+        </div>
+        <!-- FORMULARIO -->
+        <form class="form" action="https://formspree.io/f/xoqoaywy"
+        method="POST" id="formulario">
+        <div class="form-container" >
+                <h3 class="form-titulo">CONTACTANOS!</h3>
+                <input type="text" class="form-input" placeholder="Nombre..." name="Nombre" required>
+                <input type="text" class="form-input" placeholder="Telefono..." name="Telefono" required>
+                <input type="email" class="form-input" placeholder="Correo..." name="Correo" required>
+                <textarea  class="form-input form-input-mensaje" placeholder="Servicio a solicitar:" name="message"></textarea>
+                <input type="submit" value="Enviar" class="form-btn">
+        </div> 
+        </form>
+    </div>
+
+    <!-- UBICACION -->
+    <div class="div-titulo-ubicacion" id="ubicacion">
+        <h2 class="titulo-ubicacion">UBICACION</h2>
+    </div>
+    <div class="ubicacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30263.945252124682!2d-70.0233287549473!3d18.529211392302336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8ba948beb10f%3A0x444b09bb9fa174a1!2sPlaza%20Carmen%20Renata%20III!5e0!3m2!1ses-419!2sdo!4v1688171165451!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- NOSOTROS --> 
+        <div class="div-titulo-nosotros" id="nosotros">
+            <h2 class="titulo-nosotros">NOSOTROS</h2>
+        </div>
+        <div class="nosotros">
+            <div class="contenedor-nosotros">
+                <div class="texto-nosotros">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis commodi ut ipsum deleniti laboriosam distinctio? Vel, ex eaque asperiores quasi nobis quo unde fugit, doloremque fuga totam harum aliquid?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit asperiores maiores, illo consequatur temporibus maxime mollitia rerum laudantium commodi provident recusandae nobis facilis velit tenetur ut pariatur? Excepturi, iste in!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam ab, assumenda officia mollitia praesentium, animi voluptates rerum hic consequuntur, voluptate officiis unde itaque quo quaerat dolore iusto? Non, nam.</p>
+                </div>
+                <img loading="lazy" src="img/nosotros.jpg" alt="NOSOTROS">
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="footer" id="footer">
+            <img loading="lazy" src="img/barberia.png" alt="LOGO" class="logo-footer">
+            <div class="social-icon-container">
+                <a href="https://www.linkedin.com/in/juan-elias-hj" class="social-icon " target="_blank"></a>
+                <a href="https://github.com/JE2606" class="social-icon" target="_blank"></a>
+                <a href="mailto:juan.elias0626@gmail.com" class="social-icon" target="_blank"></a>
+                <a href="https://www.instagram.com/je26.2/" class="social-icon" target="_blank"></a>
+            </div>
+            <ul class="footer-menu-container">
+                <li class="menu-item">Legal</li>
+                <li class="menu-item">Cookies</li>
+                <li class="menu-item">Privacy</li>
+                <li class="menu-item">Shippiing</li>
+                <li class="menu-item">Refounds</li>
+            </ul>
+            <span class="copyright">&copy;2023, Juan Hernandez. All rights reserved.</span>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
